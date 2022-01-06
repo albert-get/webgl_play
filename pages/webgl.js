@@ -6,7 +6,7 @@ function  Webgl () {
     )
 }
 
-const WebglPage = loadable(() => import('../csr/webgl3'), {
+const WebglPage = loadable(() => import('../csr/webgl4'), {
     fallback: <Webgl/>,
 })
 export default WebglPage
